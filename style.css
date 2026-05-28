@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: radial-gradient(circle at top, #141a2e, #070a12);
+    color: #e6e6e6;
+}
+
+/* Smooth fade in */
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+/* Glass card */
+.glass {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(135deg, #6d5efc, #4a90e2);
+    border: none;
+    padding: 10px 14px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+    button:hover {
+        transform: translateY(-2px);
+        opacity: 0.9;
+    }
+
+/* Inputs */
+input {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    width: 100%;
+    margin: 6px 0;
+}
+
+/* Layout helpers */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

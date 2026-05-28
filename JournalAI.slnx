@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/JournalAI.Frontend/">
+    <File Path="chat.html" />
+    <File Path="dashboard.html" />
+    <File Path="index.html" />
+  </Folder>
+  <Folder Name="/JournalAI.Frontend/css/">
+    <File Path="style.css" />
+  </Folder>
+  <Folder Name="/JournalAI.Frontend/js/">
+    <File Path="api.js" />
+    <File Path="auth.js" />
+    <File Path="chat.js" />
+    <File Path="dashboard.js" />
+  </Folder>
+  <Project Path="JournalAI.API/JournalAI.API.csproj" />
+</Solution>
