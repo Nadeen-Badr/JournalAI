@@ -113,51 +113,117 @@ const journalId = urlParams.get("id");
 
 let messages = [];
 
+async function loadHistory() {
+    try {
+        const res = await fetch(`${API}/ai/history/${journalId}`, {
+            headers: {
+                "Authorization": "Bearer " + getToken()
+            }
+        });
+
+        messages = await res.json();
+
+        renderChat();
+    }
+    catch (err) {
+        console.error(err);
+    }
+}
+
 async function send() {
     const input = document.getElementById("msg");
-    const text = input.value;
+    const text = input.value.trim();
 
     if (!text) return;
 
-    messages.push({ role: "user", content: text });
-    input.value = "";
-
-    const res = await fetch(`${API}/ai/chat`, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "Authorization": "Bearer " + getToken()
-        },
-        body: JSON.stringify({
-            journalId: parseInt(journalId),
-            messages
-        })
+    // ADD USER MESSAGE
+    messages.push({
+        role: "user",
+        content: text
     });
 
-    const data = await res.json();
-
-    messages.push({ role: "ai", content: data.response });
+    input.value = "";
 
     renderChat();
+
+    // SHOW TYPING
+    showTyping();
+
+    try {
+
+        const res = await fetch(`${API}/ai/chat`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + getToken()
+            },
+            body: JSON.stringify({
+                journalId: parseInt(journalId),
+                messages
+            })
+        });
+
+        const data = await res.json();
+
+        hideTyping();
+
+        // ADD AI MESSAGE
+        messages.push({
+            role: "ai",
+            content: data.response
+        });
+
+        renderChat();
+    }
+    catch (err) {
+
+        hideTyping();
+
+        messages.push({
+            role: "ai",
+            content: "Something went wrong."
+        });
+
+        renderChat();
+
+        console.error(err);
+    }
 }
 
 function renderChat() {
+
     const chat = document.getElementById("chat");
+
+    if (!chat) return;
+
     chat.innerHTML = "";
 
     messages.forEach(m => {
+
         const div = document.createElement("div");
 
         const isUser = m.role === "user";
 
-        div.style.alignSelf = isUser ? "flex-end" : "flex-start";
+        div.className = "message";
+
+        div.style.alignSelf =
+            isUser ? "flex-end" : "flex-start";
+
         div.style.maxWidth = "70%";
-        div.style.padding = "10px 14px";
-        div.style.borderRadius = "14px";
-        div.style.margin = "5px 0";
+
+        div.style.padding = "12px 16px";
+
+        div.style.borderRadius = "18px";
+
+        div.style.margin = "8px 0";
+
+        div.style.lineHeight = "1.5";
+
+        div.style.animation = "fadeIn 0.25s ease";
+
         div.style.background = isUser
             ? "linear-gradient(135deg, #6d5efc, #4a90e2)"
-            : "rgba(255,255,255,0.07)";
+            : "rgba(255,255,255,0.08)";
 
         div.innerText = m.content;
 
@@ -167,10 +233,50 @@ function renderChat() {
     chat.scrollTop = chat.scrollHeight;
 }
 
+function showTyping() {
+
+    const chat = document.getElementById("chat");
+
+    const typing = document.createElement("div");
+
+    typing.id = "typing";
+
+    typing.style.alignSelf = "flex-start";
+
+    typing.style.padding = "12px 16px";
+
+    typing.style.borderRadius = "18px";
+
+    typing.style.margin = "8px 0";
+
+    typing.style.background = "rgba(255,255,255,0.08)";
+
+    typing.style.opacity = "0.7";
+
+    typing.innerText = "AI is thinking...";
+
+    chat.appendChild(typing);
+
+    chat.scrollTop = chat.scrollHeight;
+}
+
+function hideTyping() {
+
+    const typing = document.getElementById("typing");
+
+    if (typing) {
+        typing.remove();
+    }
+}
+
 /* =========================
    AUTO INIT
 ========================= */
 
 if (document.getElementById("list")) {
     loadJournals();
+}
+
+if (document.getElementById("chat")) {
+    loadHistory();
 }

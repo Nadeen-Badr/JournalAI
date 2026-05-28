@@ -1,8 +1,9 @@
-﻿using System.Net.Http.Json;
-using JournalAI.API.Data;
+﻿using JournalAI.API.Data;
 using JournalAI.API.DTOs;
 using JournalAI.API.Interfaces;
+using JournalAI.API.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Http.Json;
 using System.Text.Json;
 namespace JournalAI.API.Services;
 
@@ -12,7 +13,10 @@ public class AiService : IAiService
     private readonly IConfiguration _config;
     private readonly ApplicationDbContext _context;
 
-    public AiService(HttpClient httpClient, IConfiguration config, ApplicationDbContext context)
+    public AiService(
+        HttpClient httpClient,
+        IConfiguration config,
+        ApplicationDbContext context)
     {
         _httpClient = httpClient;
         _config = config;
@@ -28,10 +32,9 @@ public class AiService : IAiService
             return "Journal not found";
 
         var apiKey = _config["Gemini:ApiKey"];
-        var model = _config["Gemini:Model"];
-    
-var url =
-$"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={apiKey}";
+
+        var url =
+            $"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={apiKey}";
 
         var moodInstruction = journal.Mood switch
         {
@@ -48,10 +51,10 @@ You are a supportive AI journaling assistant inside a personal journaling app.
 {moodInstruction}
 
 Your role:
-- Help the user reflect on their thoughts and emotions
-- Ask gentle follow-up questions when appropriate
+- Help the user reflect on thoughts and emotions
+- Ask gentle follow-up questions
 - Keep responses short (max 6-8 lines)
-- Stay natural, not robotic
+- Stay natural and conversational
 - Focus ONLY on the journal context
 
 Journal Entry:
@@ -65,21 +68,67 @@ Rules:
 - Be empathetic and calm
 """;
 
+        // =========================
+        // LOAD SAVED CHAT HISTORY
+        // =========================
+
+        var history = await _context.ChatMessages
+        .Where(x => x.JournalId == journalId)
+        .OrderByDescending(x => x.CreatedAt)
+        .Take(20)
+        .OrderBy(x => x.CreatedAt)
+        .ToListAsync();
+
+        // =========================
+        // SAVE NEW USER MESSAGE
+        // =========================
+
+        var latestUserMessage = messages.LastOrDefault(x => x.Role == "user");
+
+        if (latestUserMessage != null)
+        {
+            _context.ChatMessages.Add(new ChatMessage
+            {
+                JournalId = journalId,
+                Role = "user",
+                Content = latestUserMessage.Content
+            });
+
+            await _context.SaveChangesAsync();
+        }
+
+        // =========================
+        // BUILD AI CONTEXT
+        // =========================
+
         var contents = new List<object>
         {
             new
             {
                 role = "user",
-                parts = new[] { new { text = systemPrompt } }
+                parts = new[]
+                {
+                    new { text = systemPrompt }
+                }
             }
         };
 
-        // limit context (IMPORTANT FIX)
-        var lastMessages = messages
-            .TakeLast(10)
-            .ToList();
+        foreach (var msg in history)
+        {
+            contents.Add(new
+            {
+                role = msg.Role == "user" ? "user" : "model",
+                parts = new[]
+                {
+                    new { text = msg.Content }
+                }
+            });
+        }
 
-        foreach (var msg in lastMessages)
+        // include latest frontend messages too
+        var recentMessages = messages.TakeLast(10);
+
+        foreach (var msg in recentMessages)
         {
             contents.Add(new
             {
@@ -110,8 +159,13 @@ Rules:
         if (!response.IsSuccessStatusCode)
         {
             var errorText = await response.Content.ReadAsStringAsync();
+
             return $"AI request failed: {response.StatusCode} - {errorText}";
         }
+
+        // =========================
+        // PARSE GEMINI RESPONSE
+        // =========================
 
         var jsonString = await response.Content.ReadAsStringAsync();
 
@@ -126,6 +180,19 @@ Rules:
 
         if (string.IsNullOrWhiteSpace(text))
             return "AI returned empty response.";
+
+        // =========================
+        // SAVE AI MESSAGE
+        // =========================
+
+        _context.ChatMessages.Add(new ChatMessage
+        {
+            JournalId = journalId,
+            Role = "ai",
+            Content = text
+        });
+
+        await _context.SaveChangesAsync();
 
         return text;
     }

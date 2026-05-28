@@ -13,7 +13,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<User> Users => Set<User>();
 
     public DbSet<JournalEntry> JournalEntries => Set<JournalEntry>();
-
+    public DbSet<ChatMessage> ChatMessages => Set<ChatMessage>();
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

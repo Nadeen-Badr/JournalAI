@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "JournalAI.API.Controllers.AiController",
+    "Method": "GetHistory",
+    "RelativePath": "api/Ai/history/{journalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "journalId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JournalAI.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JournalAI.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4f8a4b5a3c3b76108234f5b1de676b830a63919")]
 [assembly: System.Reflection.AssemblyProductAttribute("JournalAI.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JournalAI.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

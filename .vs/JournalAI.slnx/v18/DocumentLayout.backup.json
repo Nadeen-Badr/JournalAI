@@ -3,112 +3,116 @@
   "WorkspaceRootPath": "D:\\Dev\\Personal\\JournalAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE2E26E7-4548-4BA6-A394-4C9393E72650}|NewFolder1{CE2E26E7-4548-4BA6-A394-4C9393E72650}|D:\\Dev\\Personal\\JournalAI\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{CE2E26E7-4548-4BA6-A394-4C9393E72650}|NewFolder1{CE2E26E7-4548-4BA6-A394-4C9393E72650}|solutionrelative:dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6B13712-E90A-4D46-A21C-6B3C3ABFB4E8}|NewFolder1{A6B13712-E90A-4D46-A21C-6B3C3ABFB4E8}|D:\\Dev\\Personal\\JournalAI\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A6B13712-E90A-4D46-A21C-6B3C3ABFB4E8}|NewFolder1{A6B13712-E90A-4D46-A21C-6B3C3ABFB4E8}|solutionrelative:style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\controllers\\journalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\controllers\\journalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE2E26E7-4548-4BA6-A394-4C9393E72650}|NewFolder1{CE2E26E7-4548-4BA6-A394-4C9393E72650}|D:\\Dev\\Personal\\JournalAI\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{CE2E26E7-4548-4BA6-A394-4C9393E72650}|NewFolder1{CE2E26E7-4548-4BA6-A394-4C9393E72650}|solutionrelative:chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|NewFolder1{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|D:\\Dev\\Personal\\JournalAI\\chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|NewFolder1{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|solutionrelative:chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|NewFolder1{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|D:\\Dev\\Personal\\JournalAI\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|NewFolder1{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|solutionrelative:dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|js{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|D:\\Dev\\Personal\\JournalAI\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|js{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|solutionrelative:api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|NewFolder1{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|D:\\Dev\\Personal\\JournalAI\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|NewFolder1{608D315C-B7F9-45E1-B0BC-28D6DF564A9A}|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|js{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|D:\\Dev\\Personal\\JournalAI\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|js{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|solutionrelative:auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE2E26E7-4548-4BA6-A394-4C9393E72650}|NewFolder1{CE2E26E7-4548-4BA6-A394-4C9393E72650}|D:\\Dev\\Personal\\JournalAI\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{CE2E26E7-4548-4BA6-A394-4C9393E72650}|NewFolder1{CE2E26E7-4548-4BA6-A394-4C9393E72650}|solutionrelative:api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{BA09255C-FB8D-5187-6B03-F6B304E4E8FE}|css{BA09255C-FB8D-5187-6B03-F6B304E4E8FE}|D:\\Dev\\Personal\\JournalAI\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BA09255C-FB8D-5187-6B03-F6B304E4E8FE}|css{BA09255C-FB8D-5187-6B03-F6B304E4E8FE}|solutionrelative:style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE2E26E7-4548-4BA6-A394-4C9393E72650}|NewFolder1{CE2E26E7-4548-4BA6-A394-4C9393E72650}|D:\\Dev\\Personal\\JournalAI\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{CE2E26E7-4548-4BA6-A394-4C9393E72650}|NewFolder1{CE2E26E7-4548-4BA6-A394-4C9393E72650}|solutionrelative:auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|JournalAI.Frontend{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|D:\\Dev\\Personal\\JournalAI\\chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|JournalAI.Frontend{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|solutionrelative:chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\interfaces\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\interfaces\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|JournalAI.Frontend{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|D:\\Dev\\Personal\\JournalAI\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|JournalAI.Frontend{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|solutionrelative:dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|JournalAI.Frontend{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|D:\\Dev\\Personal\\JournalAI\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|JournalAI.Frontend{D4843880-A7DF-A823-53D1-BC6963F2DCEE}|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\interfaces\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\interfaces\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\chatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\chatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\controllers\\journalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\controllers\\journalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|js{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|D:\\Dev\\Personal\\JournalAI\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|js{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|solutionrelative:dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\updatejournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\updatejournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|js{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|D:\\Dev\\Personal\\JournalAI\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|js{C2BDCBFD-C547-4F5D-0FC8-6590B14DBD0C}|solutionrelative:chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\createjournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\createjournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\chatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\chatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\journalai.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\journalai.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\updatejournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\updatejournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\createjournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\createjournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\journalai.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\journalai.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\models\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\models\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FD688E1-7611-4324-812C-9A425AA55CB2}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\models\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\models\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|d:\\dev\\personal\\journalai\\journalai.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9A2A36-D568-D4AD-6F11-DFEE961F67E4}|JournalAI.API\\JournalAI.API.csproj|solutionrelative:journalai.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,50 +122,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "api.js",
-              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\api.js",
-              "RelativeDocumentMoniker": "api.js",
-              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\api.js",
-              "RelativeToolTip": "api.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-28T16:37:27.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "auth.js",
-              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\auth.js",
-              "RelativeDocumentMoniker": "auth.js",
-              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\auth.js",
-              "RelativeToolTip": "auth.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-28T16:37:08.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\style.css",
-              "RelativeDocumentMoniker": "style.css",
-              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\style.css",
-              "RelativeToolTip": "style.css",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwv08AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-28T16:36:38.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "chat.html",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\chat.html",
               "RelativeDocumentMoniker": "chat.html",
@@ -169,12 +134,11 @@
               "RelativeToolTip": "chat.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-28T16:36:18.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:36:18.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "dashboard.html",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\dashboard.html",
               "RelativeDocumentMoniker": "dashboard.html",
@@ -182,12 +146,11 @@
               "RelativeToolTip": "dashboard.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-28T16:36:06.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:36:06.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "index.html",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -195,18 +158,17 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-28T16:35:48.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:35:48.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "AiController.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\AiController.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\Controllers\\AiController.cs",
               "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\AiController.cs",
               "RelativeToolTip": "JournalAI.API\\Controllers\\AiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T16:27:01.374Z",
               "EditorCaption": ""
@@ -219,14 +181,14 @@
               "RelativeDocumentMoniker": "JournalAI.API\\Services\\AiService.cs",
               "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Services\\AiService.cs",
               "RelativeToolTip": "JournalAI.API\\Services\\AiService.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAgwIEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAApwE8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T16:26:04.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "IAiService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Interfaces\\IAiService.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\Interfaces\\IAiService.cs",
@@ -234,8 +196,7 @@
               "RelativeToolTip": "JournalAI.API\\Interfaces\\IAiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T16:25:40.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:25:40.465Z"
             },
             {
               "$type": "Document",
@@ -247,12 +208,99 @@
               "RelativeToolTip": "JournalAI.API\\DTOs\\MessageDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T16:25:10.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:25:10.49Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "JournalAI.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "JournalAI.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T15:39:08.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JournalAI.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JournalAI.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawBEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T15:41:46.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JournalController.cs",
+              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\JournalController.cs",
+              "RelativeDocumentMoniker": "JournalAI.API\\Controllers\\JournalController.cs",
+              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\JournalController.cs",
+              "RelativeToolTip": "JournalAI.API\\Controllers\\JournalController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAtwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:22:34.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "JournalAI.API\\Models\\ChatMessage.cs",
+              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "JournalAI.API\\Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:57:57.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\style.css",
+              "RelativeDocumentMoniker": "style.css",
+              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\style.css",
+              "RelativeToolTip": "style.css",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwv08AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-28T16:36:38.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "auth.js",
+              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\auth.js",
+              "RelativeDocumentMoniker": "auth.js",
+              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\auth.js",
+              "RelativeToolTip": "auth.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-28T16:37:08.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "api.js",
+              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\api.js",
+              "RelativeDocumentMoniker": "api.js",
+              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\api.js",
+              "RelativeToolTip": "api.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-28T16:37:27.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\appsettings.json",
               "RelativeDocumentMoniker": "JournalAI.API\\appsettings.json",
@@ -260,12 +308,11 @@
               "RelativeToolTip": "JournalAI.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-28T15:42:32.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:42:32.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "dashboard.js",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\dashboard.js",
               "RelativeDocumentMoniker": "dashboard.js",
@@ -273,12 +320,11 @@
               "RelativeToolTip": "dashboard.js",
               "ViewState": "AgIAAB8AAAAAAAAAAAAgwAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-28T16:37:40.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:37:40.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "chat.js",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\chat.js",
               "RelativeDocumentMoniker": "chat.js",
@@ -286,12 +332,11 @@
               "RelativeToolTip": "chat.js",
               "ViewState": "AgIAAAwAAAAAAAAAAAAcwD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-28T16:37:55.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:37:55.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ChatRequestDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\DTOs\\ChatRequestDto.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\DTOs\\ChatRequestDto.cs",
@@ -299,25 +344,11 @@
               "RelativeToolTip": "JournalAI.API\\DTOs\\ChatRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T16:24:33.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:24:33.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "JournalController.cs",
-              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\JournalController.cs",
-              "RelativeDocumentMoniker": "JournalAI.API\\Controllers\\JournalController.cs",
-              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\JournalController.cs",
-              "RelativeToolTip": "JournalAI.API\\Controllers\\JournalController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAD4v14AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T16:22:34.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "UpdateJournalDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\DTOs\\UpdateJournalDto.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\DTOs\\UpdateJournalDto.cs",
@@ -325,12 +356,11 @@
               "RelativeToolTip": "JournalAI.API\\DTOs\\UpdateJournalDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T16:21:54.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:21:54.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CreateJournalDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\DTOs\\CreateJournalDto.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\DTOs\\CreateJournalDto.cs",
@@ -338,12 +368,11 @@
               "RelativeToolTip": "JournalAI.API\\DTOs\\CreateJournalDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T16:21:29.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:21:29.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Program.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\Program.cs",
@@ -351,37 +380,22 @@
               "RelativeToolTip": "JournalAI.API\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:42:57.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:42:57.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "JournalAI.API",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\JournalAI.API.csproj",
               "RelativeDocumentMoniker": "JournalAI.API\\JournalAI.API.csproj",
               "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\JournalAI.API.csproj",
               "RelativeToolTip": "JournalAI.API\\JournalAI.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-28T16:07:33.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T16:07:33.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "JournalAI.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "JournalAI.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAD4v1kAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:41:46.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "JwtService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\Services\\JwtService.cs",
@@ -389,12 +403,11 @@
               "RelativeToolTip": "JournalAI.API\\Services\\JwtService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:41:15.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:41:15.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Interfaces\\IJwtService.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\Interfaces\\IJwtService.cs",
@@ -402,12 +415,11 @@
               "RelativeToolTip": "JournalAI.API\\Interfaces\\IJwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:40:53.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:40:53.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\DTOs\\LoginDto.cs",
@@ -415,12 +427,11 @@
               "RelativeToolTip": "JournalAI.API\\DTOs\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:40:13.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:40:13.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\DTOs\\RegisterDto.cs",
@@ -428,25 +439,11 @@
               "RelativeToolTip": "JournalAI.API\\DTOs\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:39:42.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:39:42.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "JournalAI.API\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "JournalAI.API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:39:08.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "JournalEntry.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Models\\JournalEntry.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\Models\\JournalEntry.cs",
@@ -454,12 +451,11 @@
               "RelativeToolTip": "JournalAI.API\\Models\\JournalEntry.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:38:37.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:38:37.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\JournalAI\\JournalAI.API\\Models\\User.cs",
               "RelativeDocumentMoniker": "JournalAI.API\\Models\\User.cs",
@@ -467,8 +463,7 @@
               "RelativeToolTip": "JournalAI.API\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:38:00.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T15:38:00.179Z"
             }
           ]
         }

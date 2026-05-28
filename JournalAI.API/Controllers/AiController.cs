@@ -1,7 +1,9 @@
-﻿using JournalAI.API.DTOs;
+﻿using JournalAI.API.Data;
+using JournalAI.API.DTOs;
 using JournalAI.API.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace JournalAI.API.Controllers;
 
@@ -11,10 +13,12 @@ namespace JournalAI.API.Controllers;
 public class AiController : ControllerBase
 {
     private readonly IAiService _aiService;
-
-    public AiController(IAiService aiService)
+    private readonly ApplicationDbContext _context;
+    public AiController(ApplicationDbContext context, IAiService aiService)
     {
+        _context = context;
         _aiService = aiService;
+
     }
 
     [HttpPost("chat")]
@@ -26,5 +30,21 @@ public class AiController : ControllerBase
         {
             response
         });
+    }
+
+[HttpGet("history/{journalId}")]
+    public async Task<IActionResult> GetHistory(int journalId)
+    {
+        var messages = await _context.ChatMessages
+            .Where(x => x.JournalId == journalId)
+            .OrderBy(x => x.CreatedAt)
+            .Select(x => new
+            {
+                role = x.Role,
+                content = x.Content
+            })
+            .ToListAsync();
+
+        return Ok(messages);
     }
 }
