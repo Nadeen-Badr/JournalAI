@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Journal Chat</title>
+    <title>AI Reflection – JournalAI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
 
-    <div class="container">
-
+    <div class="dash-header">
         <h2>AI Reflection</h2>
-
-        <div id="chat"
-             class="glass"
-             style="height:60vh; overflow-y:auto; padding:20px; display:flex; flex-direction:column; gap:10px;">
-        </div>
-
-        <div style="display:flex; gap:10px; margin-top:10px;">
-            <input id="msg" placeholder="Write your thoughts...">
-            <button onclick="send()">Send</button>
-        </div>
-
+        <button class="back-btn" onclick="goBack()">← Back</button>
     </div>
-   <script src="api.js"></script>
-   
+
+    <div id="chat" class="glass"></div>
+
+    <div class="chat-bar">
+        <input id="msg" placeholder="Write your thoughts…" onkeydown="if(event.key==='Enter') send()">
+        <button onclick="send()">Send</button>
+    </div>
+
+</div>
+<script src="api.js"></script>
 </body>
 </html>

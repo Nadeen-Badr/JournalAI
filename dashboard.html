@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>Dashboard – JournalAI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
 
-    <div class="container">
-
-        <h2 style="margin-top:20px;">My Journal</h2>
-
-        <button onclick="createJournal()">+ New Entry</button>
-
-        <div id="list" style="margin-top:20px; display:grid; gap:12px;"></div>
-
+    <div class="dash-header">
+        <h2>My Journal</h2>
     </div>
-   <script src="api.js"></script>
-  
+
+    <div class="glass journal-form">
+        <h3>New Entry</h3>
+        <input id="journalTitle" placeholder="Give your entry a title…">
+        <textarea id="journalContent" placeholder="What's on your mind today?"></textarea>
+
+        <div class="mood-picker">
+            <button class="mood-btn" onclick="selectMood('Happy')">😊 Happy</button>
+            <button class="mood-btn" onclick="selectMood('Calm')">😌 Calm</button>
+            <button class="mood-btn" onclick="selectMood('Neutral')">😐 Neutral</button>
+            <button class="mood-btn" onclick="selectMood('Sad')">😔 Sad</button>
+            <button class="mood-btn" onclick="selectMood('Stressed')">😣 Stressed</button>
+        </div>
+
+        <button onclick="createJournal()">✦ Create Entry</button>
+    </div>
+
+    <p class="section-label">Recent Entries</p>
+    <div id="list"></div>
+
+</div>
+<script src="api.js"></script>
 </body>
 </html>

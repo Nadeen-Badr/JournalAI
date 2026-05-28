@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JournalAI Login</title>
+    <title>JournalAI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="center">
 
-    <div class="glass" style="width:320px; animation: fadeIn 0.6s ease;">
-        <h2>JournalAI</h2>
-        <p style="opacity:0.7;">Reflect. Think. Grow.</p>
+    <div class="glass login-card">
+        <div style="margin-bottom:24px;">
+            <div style="width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,#6e5de8,#3f8ef5);margin-bottom:16px;"></div>
+            <h2>JournalAI</h2>
+            <span class="subtitle">Reflect. Think. Grow.</span>
+        </div>
 
-        <input id="email" placeholder="Email">
+        <input id="email" type="email" placeholder="Email address">
         <input id="password" type="password" placeholder="Password">
 
-        <button onclick="login()" style="width:100%; margin-top:10px;">Login</button>
-        <button onclick="register()" style="width:100%; margin-top:10px;">Register</button>
+        <div class="login-actions">
+            <button onclick="login()">Sign in</button>
+            <button onclick="register()">Create account</button>
+        </div>
     </div>
-   <script src="api.js"></script>
 
+    <script src="api.js"></script>
 </body>
 </html>

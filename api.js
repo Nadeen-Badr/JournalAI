@@ -28,7 +28,7 @@ async function login() {
         localStorage.setItem("token", data.token);
         window.location.href = "dashboard.html";
     } else {
-        alert("Login failed");
+       showToast("Login failed");
     }
 }
 
@@ -47,7 +47,7 @@ async function register() {
     });
 
     if (res.ok) {
-        alert("Registered! Now login.");
+        showToast("Account created successfully ✨");
     }
 }
 
@@ -87,10 +87,30 @@ function openChat(id) {
     window.location.href = `chat.html?id=${id}`;
 }
 
+let selectedMood = "Neutral";
+
+function selectMood(mood) {
+
+    selectedMood = mood;
+
+    document.querySelectorAll(".mood-btn")
+        .forEach(btn => btn.classList.remove("active"));
+
+    event.target.classList.add("active");
+}
+
 async function createJournal() {
-    const title = prompt("Title");
-    const content = prompt("Content");
-    const mood = prompt("Mood");
+
+    const title =
+        document.getElementById("journalTitle").value;
+
+    const content =
+        document.getElementById("journalContent").value;
+
+    if (!title || !content) {
+        showToast("Please complete all fields.");
+        return;
+    }
 
     await fetch(`${API}/journal`, {
         method: "POST",
@@ -98,12 +118,20 @@ async function createJournal() {
             "Content-Type": "application/json",
             "Authorization": "Bearer " + getToken()
         },
-        body: JSON.stringify({ title, content, mood })
+        body: JSON.stringify({
+            title,
+            content,
+            mood: selectedMood
+        })
     });
+
+    document.getElementById("journalTitle").value = "";
+    document.getElementById("journalContent").value = "";
+
+    showToast("Journal created ✨");
 
     loadJournals();
 }
-
 /* =========================
    CHAT SYSTEM
 ========================= */
@@ -279,4 +307,31 @@ if (document.getElementById("list")) {
 
 if (document.getElementById("chat")) {
     loadHistory();
+}
+function showToast(message) {
+
+    const toast = document.createElement("div");
+
+    toast.className = "toast";
+
+    toast.innerText = message;
+
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        toast.classList.add("show");
+    }, 50);
+
+    setTimeout(() => {
+
+        toast.classList.remove("show");
+
+        setTimeout(() => {
+            toast.remove();
+        }, 300);
+
+    }, 2500);
+}
+function goBack() {
+    window.location.href = "dashboard.html";
 }
