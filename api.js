@@ -1,4 +1,4 @@
-const API = "https://localhost:7288/api";
+const API =  "https://journalwithai.runasp.net/api";
 
 /* =========================
    AUTH HELPERS
